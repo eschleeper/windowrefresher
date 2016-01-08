@@ -1,3 +1,3 @@
 if (typeof window.refreshAll === "function") {
-  window.setInterval(window.refreshAll, 1000);
+  window.setInterval(window.refreshAll, window.refreshDuration || 1000);
 }
